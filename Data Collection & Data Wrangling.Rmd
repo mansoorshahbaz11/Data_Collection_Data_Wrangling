@@ -29,7 +29,9 @@ USPersonalExpenditure
 ```
 
 ```{r }
-### start solution ####
+us_set = USPersonalExpenditure
+us_set
+
 ```
 
 
