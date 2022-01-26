@@ -32,6 +32,8 @@ USPersonalExpenditure
 us_set = USPersonalExpenditure
 us_set
 
+dataframe_us <- as.data.frame(us_set)  #convert data into data frame to see visual columns clearly
+dataframe_us 
 ```
 
 
