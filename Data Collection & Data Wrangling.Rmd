@@ -38,12 +38,18 @@ dataframe_us
 
 
 ```{r }
+library(dplyr)
+
+steady <- summarise_at(dataframe_us, c("1940","1945", "1955", "1960"),funs(mean,sd), na.rm = T)
+steady
 
 ```
 
 
+
 ```{r }
 
+dataframe_us %>% mutate(Average_values = rowMeans(dataframe_us))
 ```
 
 
